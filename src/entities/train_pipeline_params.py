@@ -22,8 +22,6 @@ PATH = "configs/config.yaml"
 @dataclass()
 class TrainingPipelineParams:
     output_model_path: str
-    output_transformer_path: str
-    output_ctr_transformer_path: str
     metric_path: str
     splitting_params: SplittingParams
     feature_params: FeatureParams

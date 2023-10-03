@@ -7,7 +7,6 @@ import argparse
 import pandas as pd
 
 from src.data.make_dataset import read_data, strip_spaces, fill_na, split_train_val_data, split_features_target
-from src.entities.feature_params import FeatureParams
 
 from src.entities.train_pipeline_params import (
     TrainingPipelineParams,
