@@ -99,6 +99,7 @@ Cyber attack multi-classification
 2. Запустить в корне проекта для сборки образа:
 
 `docker build -t cyber-attack-classification:v1 .`
+
 3. Запустить:
 
 `docker run -p 8000:8000 --rm cyber-attack-classification:v1`
